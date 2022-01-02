@@ -1,4 +1,4 @@
-export function fetchWines(action) {
+export const fetchWines = (action) => {
   return (dispatch) => {
     fetch('http://localhost:3000/api/v1/wines')
     .then(response => response.json())

@@ -14,7 +14,7 @@ class WinesContainer extends React.Component {
   render() {
     return (
       <div>
-        <WineInput/>
+        <WineInput/><br/><br/>
         <Wines wines={this.props.wines}/>
       </div>
     )
