@@ -23,6 +23,14 @@ class WineInput extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     this.props.addWine(this.state);
+    this.setState({
+      date: '',
+      name: '',
+      description: '',
+      year: '',
+      shop: '',
+      price: ''
+    })
   }
 
   render() {
