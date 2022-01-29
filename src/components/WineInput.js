@@ -11,7 +11,9 @@ class WineInput extends React.Component {
     description: '',
     year: '',
     shop: '',
-    price: ''
+    price: '',
+    n_rate: '',
+    m_rate: ''
   }
 
   handleChange = (event) => {
@@ -29,7 +31,9 @@ class WineInput extends React.Component {
       description: '',
       year: '',
       shop: '',
-      price: ''
+      price: '',
+      n_rate: '',
+      m_rate: ''
     })
   }
 
@@ -43,6 +47,8 @@ class WineInput extends React.Component {
           <input type='text' placeholder='Year' value={this.state.year} name = 'year' onChange={this.handleChange}/><br/>
           <input type='text' placeholder='Shop' value={this.state.shop} name = 'shop' onChange={this.handleChange}/><br/>
           <input type='text' placeholder='Price' value={this.state.price} name = 'price' onChange={this.handleChange}/><br/>
+          <input type='text' placeholder='Nicolo' value={this.state.n_rate} name = 'n_rate' onChange={this.handleChange}/><br/>
+          <input type='text' placeholder='Margo' value={this.state.m_rate} name = 'm_rate' onChange={this.handleChange}/><br/>
           <input type='submit'/>
         </form>
       </div>
