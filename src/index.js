@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import App from './App';
 import wineReducer from './reducers/wineReducer';
+import './inputForm.css';
+import 'react-calendar/dist/Calendar.css';
 
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

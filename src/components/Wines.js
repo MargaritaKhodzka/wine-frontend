@@ -1,8 +1,6 @@
 import React from 'react';
-import {Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
-
-import Wine from './Wine';
 
 const Wines = (props) => {
   return (

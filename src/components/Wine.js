@@ -7,7 +7,7 @@ const Wine = props => {
   return (
     <div>
       <h2>{wine && wine.name}</h2>
-      <Table responsive striped bordered>
+      <Table responsive bordered>
         <tbody>
           <tr>
             <td>Date</td>
