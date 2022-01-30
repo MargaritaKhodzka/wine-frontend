@@ -1,15 +1,20 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
+import {Button} from 'reactstrap';
 
 const Wines = (props) => {
   return (
-    <div>
-      <Table responsive striped bordered>
+    <div className = 'container'>
+      <div>
+        <Link className = 'addButton' to='/wines/new'>Add A New Wine</Link>
+      </div>
+
+      <Table responsive>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Nicolo</th>
+            <th>Wine</th>
+            <th>Nicolò</th>
             <th>Margo</th>
           </tr>
         </thead>
@@ -17,9 +22,9 @@ const Wines = (props) => {
         <tbody>
           {props.wines.map(wine =>
             <tr key={wine.id}>
-              <td><Link to={`/wines/${wine.id}`}>{wine.name}</Link></td>
-              <td>{wine.n_rate}</td>
-              <td>{wine.m_rate}</td>
+              <td><Link className = 'wineData' to={`/wines/${wine.id}`}>{wine.name}</Link></td>
+              <td className = 'rates'>{wine.n_rate}</td>
+              <td className = 'rates'>{wine.m_rate}</td>
             </tr>
           )}
         </tbody>

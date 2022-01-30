@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import Calendar from 'react-calendar';
+import {Link} from 'react-router-dom';
 
 import {addWine} from '../actions/addWine';
 
@@ -44,6 +45,10 @@ class WineInput extends React.Component {
   render() {
     return (
       <div className = 'container'>
+        <div>
+          <Link className = 'backLink' to='/wines'>Back to the wine list</Link>
+        </div>
+
         <h3>New wine</h3>
         <Form className = 'wineData' onSubmit = {this.handleSubmit}>
           <FormGroup>
@@ -105,7 +110,7 @@ class WineInput extends React.Component {
           </FormGroup>
 
           <FormGroup>
-            <Label for = 'n_rate'>Nicolo</Label>
+            <Label for = 'n_rate'>Nicolò</Label>
             <Input type = 'text' value = {this.state.n_rate} name = 'n_rate' onChange={this.handleChange} />
           </FormGroup>
 
