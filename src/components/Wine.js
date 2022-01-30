@@ -1,17 +1,18 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
+import dateFormat, { masks } from "dateformat";
 
 const Wine = props => {
   let wine = props.wines.filter(wine => wine.id == props.match.params.id)[0];
 
   return (
-    <div>
-      <h2>{wine && wine.name}</h2>
-      <Table responsive bordered>
+    <div className = 'container'>
+      <h3 className = 'showWine'>{wine && wine.name}</h3>
+      <Table className = 'wineData' responsive>
         <tbody>
           <tr>
             <td>Date</td>
-            <td>{wine && wine.date}</td>
+            <td>{dateFormat(wine && wine.date, "longDate")}</td>
           </tr>
           <tr>
             <td>Description</td>

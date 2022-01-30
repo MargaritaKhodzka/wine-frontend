@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import Calendar from 'react-calendar'
+import Calendar from 'react-calendar';
 
 import {addWine} from '../actions/addWine';
 
@@ -43,9 +43,9 @@ class WineInput extends React.Component {
 
   render() {
     return (
-      <div className = 'wineInputContainer'>
+      <div className = 'container'>
         <h3>New wine</h3>
-        <Form className = 'wineInput' onSubmit = {this.handleSubmit}>
+        <Form className = 'wineData' onSubmit = {this.handleSubmit}>
           <FormGroup>
             <Label for = 'date'>Date</Label>
               <Calendar value = {this.state.date} name = 'date' onChange={this.onDateChange} />

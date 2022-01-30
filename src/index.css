@@ -1,17 +1,23 @@
-.wineInputContainer {
+.container {
   background: whitesmoke;
   margin: 30px;
   padding: 30px;
 }
-.wineInput, h3 {
-  color: #000066;
+.wineData {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
+  color: #000066;
 }
 
 h3 {
+  font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
+  color: #443266;
   padding-bottom: 10px;
+}
+
+h3.showWine {
+  padding: 0 0 10px 8px;
 }
 
 .afterDropdown {

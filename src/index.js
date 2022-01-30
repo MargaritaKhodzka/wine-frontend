@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import App from './App';
 import wineReducer from './reducers/wineReducer';
-import './inputForm.css';
+import './index.css';
 import 'react-calendar/dist/Calendar.css';
 
 
