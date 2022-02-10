@@ -1,9 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
-import {Button} from 'reactstrap';
 
-const Wines = (props) => {
+const Wines = props => {
   return (
     <div className = 'container'>
       <div>

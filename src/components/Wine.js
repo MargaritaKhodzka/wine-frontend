@@ -1,10 +1,20 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
-import dateFormat, { masks } from "dateformat";
+import dateFormat from "dateformat";
 import {Link} from 'react-router-dom';
+import { Button } from 'reactstrap';
+import {connect} from 'react-redux';
+
+import {deleteWine} from '../actions/deleteWine';
 
 const Wine = props => {
   let wine = props.wines.filter(wine => wine.id == props.match.params.id)[0];
+
+  const handleDelete = () => {
+    props.deleteWine(wine.id);
+    const path = `/wines`;
+    props.history.push(path);
+  }
 
   return (
     <div className = 'container'>
@@ -45,8 +55,10 @@ const Wine = props => {
           </tr>
         </tbody>
       </Table>
+      <Button onClick={handleDelete} className = 'addButton'>delete</Button>
+
     </div>
-  )
+  );
 }
 
-export default Wine;
+export default connect(null, {deleteWine})(Wine);

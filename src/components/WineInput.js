@@ -29,7 +29,8 @@ class WineInput extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    this.props.addWine(this.state);
+    const path = `/wines`;
+    this.props.addWine(this.state, this.props.history, path);
     this.setState({
       date: '',
       name: '',

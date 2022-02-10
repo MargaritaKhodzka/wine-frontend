@@ -1,5 +1,4 @@
 import React from 'react';
-
 import WinesContainer from './containers/WinesContainer';
 
 class App extends React.Component {
