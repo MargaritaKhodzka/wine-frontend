@@ -6,7 +6,7 @@ const Wines = props => {
   return (
     <div className = 'container'>
       <div>
-        <Link className = 'addButton' to='/wines/new'>Add A New Wine</Link>
+        <Link className = 'largeButton' to='/wines/new'>Add A New Wine</Link>
       </div>
 
       <Table responsive>

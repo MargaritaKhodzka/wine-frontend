@@ -19,7 +19,7 @@ class WinesContainer extends React.Component {
         <Switch>
           <Route path='/wines/new' component={WineInput} />
           <Route path='/wines/:id'  render={(routerProps) => <Wine {...routerProps} wines={this.props.wines} />} />
-          <Route path='/wines' render={(routerProps) => <Wines {...routerProps} wines={this.props.wines} />} />
+          <Route path='/' render={(routerProps) => <Wines {...routerProps} wines={this.props.wines} />} />
         </Switch>
       </div>
     )

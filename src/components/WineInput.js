@@ -19,7 +19,7 @@ class WineInput extends React.Component {
     m_rate: '',
   }
 
-  handleChange = (event) => {
+  handleChange = event => {
     this.setState({
       [event.target.name]: event.target.value
     })
@@ -27,7 +27,7 @@ class WineInput extends React.Component {
 
   onDateChange = date => this.setState({date})
 
-  handleSubmit = (event) => {
+  handleSubmit = event => {
     event.preventDefault();
     const path = `/wines`;
     this.props.addWine(this.state, this.props.history, path);
@@ -47,7 +47,7 @@ class WineInput extends React.Component {
     return (
       <div className = 'container'>
         <div>
-          <Link className = 'backLink' to='/wines'>Back to the wine list</Link>
+          <Link className = 'largeButton' to='/'>Back to the wine list</Link>
         </div>
 
         <h3>New wine</h3>
@@ -120,7 +120,7 @@ class WineInput extends React.Component {
             <Input type = 'text' value = {this.state.m_rate} name = 'm_rate' onChange={this.handleChange} />
           </FormGroup>
 
-          <Button className = 'addButton'>Add Wine</Button>
+          <Button className = 'smallButton'>Add Wine</Button>
         </Form>
       </div>
     )

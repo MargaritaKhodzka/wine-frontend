@@ -19,7 +19,7 @@ const Wine = props => {
   return (
     <div className = 'container'>
       <div>
-        <Link className = 'backLink' to='/wines'>Back to the wine list</Link>
+        <Link className = 'largeButton' to='/'>Back to the wine list</Link>
       </div>
 
       <h3 className = 'showWine'>{wine && wine.name}</h3>
@@ -55,7 +55,7 @@ const Wine = props => {
           </tr>
         </tbody>
       </Table>
-      <Button onClick={handleDelete} className = 'addButton'>delete</Button>
+      <Button className = 'smallButton' onClick={handleDelete}>delete</Button>
 
     </div>
   );
