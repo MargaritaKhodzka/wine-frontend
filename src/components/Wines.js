@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 
 const Wines = props => {

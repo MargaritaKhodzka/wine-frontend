@@ -1,10 +1,9 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import Calendar from 'react-calendar';
-import {Link} from 'react-router-dom';
-
-import {addWine} from '../actions/addWine';
+import { addWine } from '../actions/wineActions';
 
 class WineInput extends React.Component {
 
@@ -47,7 +46,7 @@ class WineInput extends React.Component {
     return (
       <div className = 'container'>
         <div>
-          <Link className = 'largeButton' to='/'>Back to the wine list</Link>
+          <Link className = 'largeButton' to='/wines'>Back to the wine list</Link>
         </div>
 
         <h3>New wine</h3>

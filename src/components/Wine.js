@@ -1,11 +1,10 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
-import dateFormat from "dateformat";
-import {Link} from 'react-router-dom';
+import dateFormat from 'dateformat';
+import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
-import {connect} from 'react-redux';
-
-import {deleteWine} from '../actions/deleteWine';
+import { connect } from 'react-redux';
+import { deleteWine } from '../actions/wineActions';
 
 const Wine = props => {
   let wine = props.wines.filter(wine => wine.id == props.match.params.id)[0];
@@ -19,7 +18,7 @@ const Wine = props => {
   return (
     <div className = 'container'>
       <div>
-        <Link className = 'largeButton' to='/'>Back to the wine list</Link>
+        <Link className = 'largeButton' to='/wines'>Back to the wine list</Link>
       </div>
 
       <h3 className = 'showWine'>{wine && wine.name}</h3>
