@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/wine-frontend/static/css/main.42b364dd.chunk.css",
-    "main.js": "/wine-frontend/static/js/main.3ba84891.chunk.js",
-    "main.js.map": "/wine-frontend/static/js/main.3ba84891.chunk.js.map",
+    "main.js": "/wine-frontend/static/js/main.f8ff83fa.chunk.js",
+    "main.js.map": "/wine-frontend/static/js/main.f8ff83fa.chunk.js.map",
     "runtime-main.js": "/wine-frontend/static/js/runtime-main.3348db71.js",
     "runtime-main.js.map": "/wine-frontend/static/js/runtime-main.3348db71.js.map",
     "static/css/2.b902c85c.chunk.css": "/wine-frontend/static/css/2.b902c85c.chunk.css",
-    "static/js/2.ab87823d.chunk.js": "/wine-frontend/static/js/2.ab87823d.chunk.js",
-    "static/js/2.ab87823d.chunk.js.map": "/wine-frontend/static/js/2.ab87823d.chunk.js.map",
+    "static/js/2.d6a3655b.chunk.js": "/wine-frontend/static/js/2.d6a3655b.chunk.js",
+    "static/js/2.d6a3655b.chunk.js.map": "/wine-frontend/static/js/2.d6a3655b.chunk.js.map",
     "index.html": "/wine-frontend/index.html",
-    "precache-manifest.d303933a5fea3e0c08de217e66f315e4.js": "/wine-frontend/precache-manifest.d303933a5fea3e0c08de217e66f315e4.js",
+    "precache-manifest.d57e0137d692cb91d9327696494d62da.js": "/wine-frontend/precache-manifest.d57e0137d692cb91d9327696494d62da.js",
     "service-worker.js": "/wine-frontend/service-worker.js",
     "static/css/2.b902c85c.chunk.css.map": "/wine-frontend/static/css/2.b902c85c.chunk.css.map",
     "static/css/main.42b364dd.chunk.css.map": "/wine-frontend/static/css/main.42b364dd.chunk.css.map",
-    "static/js/2.ab87823d.chunk.js.LICENSE.txt": "/wine-frontend/static/js/2.ab87823d.chunk.js.LICENSE.txt"
+    "static/js/2.d6a3655b.chunk.js.LICENSE.txt": "/wine-frontend/static/js/2.d6a3655b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3348db71.js",
     "static/css/2.b902c85c.chunk.css",
-    "static/js/2.ab87823d.chunk.js",
+    "static/js/2.d6a3655b.chunk.js",
     "static/css/main.42b364dd.chunk.css",
-    "static/js/main.3ba84891.chunk.js"
+    "static/js/main.f8ff83fa.chunk.js"
   ]
 }
