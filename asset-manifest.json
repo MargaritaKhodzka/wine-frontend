@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MargaritaKhodzka/wine-frontend/settings/pages/static/css/main.42b364dd.chunk.css",
+    "main.js": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/main.f8ff83fa.chunk.js",
+    "main.js.map": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/main.f8ff83fa.chunk.js.map",
+    "runtime-main.js": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/runtime-main.9fbba2e7.js",
+    "runtime-main.js.map": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/runtime-main.9fbba2e7.js.map",
+    "static/css/2.b902c85c.chunk.css": "/MargaritaKhodzka/wine-frontend/settings/pages/static/css/2.b902c85c.chunk.css",
+    "static/js/2.d6a3655b.chunk.js": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/2.d6a3655b.chunk.js",
+    "static/js/2.d6a3655b.chunk.js.map": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/2.d6a3655b.chunk.js.map",
+    "index.html": "/MargaritaKhodzka/wine-frontend/settings/pages/index.html",
+    "precache-manifest.3b910b067cec73593dba4a0c9c68d021.js": "/MargaritaKhodzka/wine-frontend/settings/pages/precache-manifest.3b910b067cec73593dba4a0c9c68d021.js",
+    "service-worker.js": "/MargaritaKhodzka/wine-frontend/settings/pages/service-worker.js",
+    "static/css/2.b902c85c.chunk.css.map": "/MargaritaKhodzka/wine-frontend/settings/pages/static/css/2.b902c85c.chunk.css.map",
+    "static/css/main.42b364dd.chunk.css.map": "/MargaritaKhodzka/wine-frontend/settings/pages/static/css/main.42b364dd.chunk.css.map",
+    "static/js/2.d6a3655b.chunk.js.LICENSE.txt": "/MargaritaKhodzka/wine-frontend/settings/pages/static/js/2.d6a3655b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fbba2e7.js",
+    "static/css/2.b902c85c.chunk.css",
+    "static/js/2.d6a3655b.chunk.js",
+    "static/css/main.42b364dd.chunk.css",
+    "static/js/main.f8ff83fa.chunk.js"
+  ]
+}
